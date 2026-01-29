@@ -1,0 +1,75 @@
+2026-01-29T16:13:42.260030616Z                                                                                                                                                
+2026-01-29T16:13:42.260102832Z ╔═══════════════════════════════════════════════════════════╗                                                                                  
+2026-01-29T16:13:42.260109965Z ║     🎯 MUTANOX - BOOTSTRAP DISCLOUD                      ║                                                                                    
+2026-01-29T16:13:42.260115606Z ╚═══════════════════════════════════════════════════════════╝                                                                                  
+2026-01-29T16:13:42.260121898Z                                                                                                                                                
+2026-01-29T16:13:42.261343729Z                                                                                                                                                
+2026-01-29T16:13:42.261380228Z 📦 Verificando módulos...                                                                                                                       
+2026-01-29T16:13:42.261387201Z                                                                                                                                                
+2026-01-29T16:13:42.262655811Z ⚠️  express não encontrado, instalando globalmente...                                                                                           
+2026-01-29T16:13:46.100088992Z ⚠️  express                                                                                                                                     
+2026-01-29T16:13:46.100513822Z ⚠️  helmet não encontrado, instalando globalmente...                                                                                            
+2026-01-29T16:13:47.010720002Z ⚠️  helmet                                                                                                                                      
+2026-01-29T16:13:47.011580253Z ⚠️  express-rate-limit não encontrado, instalando globalmente...                                                                                
+2026-01-29T16:13:49.232389767Z ⚠️  express-rate-limit                                                                                                                          
+2026-01-29T16:13:49.233172231Z ⚠️  cors não encontrado, instalando globalmente...                                                                                              
+2026-01-29T16:13:50.305449011Z ⚠️  cors                                                                                                                                        
+2026-01-29T16:13:50.306272672Z ⚠️  compression não encontrado, instalando globalmente...                                                                                       
+2026-01-29T16:13:51.473572381Z ⚠️  compression                                                                                                                                 
+2026-01-29T16:13:51.474477846Z ⚠️  cookie-parser não encontrado, instalando globalmente...                                                                                     
+2026-01-29T16:13:52.448078694Z ⚠️  cookie-parser                                                                                                                               
+2026-01-29T16:13:52.448180125Z                                                                                                                                                
+2026-01-29T16:13:52.448195524Z 📋 Variáveis de ambiente...                                                                                                                     
+2026-01-29T16:13:52.448201235Z                                                                                                                                                
+2026-01-29T16:13:52.448596189Z ⚙️  PORT = 3000                                                                                                                                 
+2026-01-29T16:13:52.448978529Z ⚙️  NODE_ENV = production                                                                                                                       
+2026-01-29T16:13:52.448985702Z ⚙️  ALLOWED_ORIGINS = https://mutano-x.discloud.app                                                                                             
+2026-01-29T16:13:52.448990692Z                                                                                                                                                
+2026-01-29T16:13:52.448995281Z 📁 Diretórios...                                                                                                                                
+2026-01-29T16:13:52.448999889Z                                                                                                                                                
+2026-01-29T16:13:52.450041060Z ✅ ./Dashboard/data                                                                                                                             
+2026-01-29T16:13:52.450258380Z ✅ ./Dashboard/backups                                                                                                                          
+2026-01-29T16:13:52.450386401Z ✅ ./Dashboard/uploads                                                                                                                          
+2026-01-29T16:13:52.450658533Z ✅ ./Dashboard/temp                                                                                                                             
+2026-01-29T16:13:52.450784160Z                                                                                                                                                
+2026-01-29T16:13:52.450791284Z ╔═══════════════════════════════════════════════════════════╗                                                                                  
+2026-01-29T16:13:52.450797165Z ║        🚀 Iniciando Dashboard...                          ║                                                                                   
+2026-01-29T16:13:52.450802435Z ╚═══════════════════════════════════════════════════════════╝                                                                                  
+2026-01-29T16:13:52.450826820Z                                                                                                                                                
+2026-01-29T16:13:52.453542736Z ⚠️  dotenv não instalado, usando variáveis do sistema                                                                                           
+2026-01-29T16:13:52.456781858Z ❌ ERRO CRÍTICO ao iniciar Dashboard: Cannot find module 'express'                                                                              
+2026-01-29T16:13:52.456792177Z Require stack:                                                                                                                                 
+2026-01-29T16:13:52.456797146Z - /home/node/Dashboard/index.js                                                                                                                
+2026-01-29T16:13:52.456801865Z - /home/node/bootstrap.js                                                                                                                      
+2026-01-29T16:13:52.467407082Z node:internal/modules/cjs/loader:1140                                                                                                          
+2026-01-29T16:13:52.467420687Z   const err = new Error(message);                                                                                                              
+2026-01-29T16:13:52.467426178Z               ^                                                                                                                                
+2026-01-29T16:13:52.467431197Z                                                                                                                                                
+2026-01-29T16:13:52.467436427Z Error: Cannot find module 'express'                                                                                                            
+2026-01-29T16:13:52.467441887Z Require stack:                                                                                                                                 
+2026-01-29T16:13:52.467447067Z - /home/node/Dashboard/index.js                                                                                                                
+2026-01-29T16:13:52.467452197Z - /home/node/bootstrap.js                                                                                                                      
+2026-01-29T16:13:52.467457487Z     at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)                                                                      
+2026-01-29T16:13:52.467463197Z     at Module._load (node:internal/modules/cjs/loader:981:27)                                                                                  
+2026-01-29T16:13:52.467468638Z     at Module.require (node:internal/modules/cjs/loader:1231:19)                                                                               
+2026-01-29T16:13:52.467473887Z     at require (node:internal/modules/helpers:177:18)                                                                                          
+2026-01-29T16:13:52.467478466Z     at startServer (/home/node/Dashboard/index.js:23:21)                                                                                       
+2026-01-29T16:13:52.467483175Z     at Object.<anonymous> (/home/node/bootstrap.js:87:3)                                                                                       
+2026-01-29T16:13:52.467488625Z     at Module._compile (node:internal/modules/cjs/loader:1364:14)                                                                              
+2026-01-29T16:13:52.467494176Z     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)                                                                       
+2026-01-29T16:13:52.467499766Z     at Module.load (node:internal/modules/cjs/loader:1203:32)                                                                                  
+2026-01-29T16:13:52.467506178Z     at Module._load (node:internal/modules/cjs/loader:1019:12) {                                                                               
+2026-01-29T16:13:52.467511739Z   code: 'MODULE_NOT_FOUND',                                                                                                                    
+2026-01-29T16:13:52.467517319Z   requireStack: [ '/home/node/Dashboard/index.js', '/home/node/bootstrap.js' ]                                                                 
+2026-01-29T16:13:52.467523170Z }                                                                                                                                              
+2026-01-29T16:13:52.467528400Z                                                                                                                                                
+2026-01-29T16:13:52.467533650Z Node.js v18.20.8                                                                                                                               
+2026-01-29T16:13:54.174003349Z                                                                                                                                                
+2026-01-29T16:13:54.174047823Z ╔═══════════════════════════════════════════════════════════╗                                                                                  
+2026-01-29T16:13:54.174055036Z ║     🎯 MUTANOX - BOOTSTRAP DISCLOUD                      ║                                                                                    
+2026-01-29T16:13:54.174077689Z ╚═══════════════════════════════════════════════════════════╝                                                                                  
+2026-01-29T16:13:54.174083911Z                                                                                                                                                
+2026-01-29T16:13:54.175125513Z                                                                                                                                                
+2026-01-29T16:13:54.175140150Z 📦 Verificando módulos...                                                                                                                       
+2026-01-29T16:13:54.175145951Z                                                                                                                                                
+2026-01-29T16:13:54.176236475Z ⚠️  express não encontrado, instalando globalmente...
